@@ -1,5 +1,9 @@
-warn("I'm warning yo")
+github.review.start
 
-fail("I can fail your PR in a moment")
+github.review.warn("I'm warning yo")
 
-message("100 message")
+github.review.fail("I can fail your PR in a moment")
+
+github.review.message("100 message")
+
+github.review.submit
