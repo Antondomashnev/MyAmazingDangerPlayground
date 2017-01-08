@@ -27,9 +27,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovV-9f-8Wh">
+                                <rect key="frame" x="142" y="352" width="90" height="30"/>
+                                <state key="normal" title="I'mma button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ovV-9f-8Wh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6mt-79-qiW"/>
+                            <constraint firstItem="ovV-9f-8Wh" firstAttribute="top" secondItem="eRm-dF-Rve" secondAttribute="bottom" constant="8" id="Gnj-D7-EL0"/>
                             <constraint firstItem="eRm-dF-Rve" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b4Y-Po-cnm"/>
                             <constraint firstItem="eRm-dF-Rve" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cQL-wc-87I"/>
                         </constraints>
